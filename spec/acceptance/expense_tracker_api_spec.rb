@@ -20,6 +20,7 @@ module ExpenseTracker
         end
 
         it 'records submitted expenses' do #JSON objects convert to Ruby hashes with string keys
+            pending 'Need to persist expenses'
             coffee = post_expense(
                 'payee' => 'Starbucks',
                 'amount' => 5.75,
